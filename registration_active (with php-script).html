@@ -1,0 +1,131 @@
+﻿<!doctype html>
+<html>
+<head>
+	<title>Современные проблемы физики 2018</title>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800|Roboto:400,100,300,500,700,900|Roboto+Condensed:400,300,700|Arimo:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="wrap">
+		<div class="header">
+			<div class="t-l">
+				<h1 id="logo">
+					<a href="index.html" title="Современные проблемы физики 2018"><img src="images/logo.bmp" alt="Modern problems of Physics" title="Современные проблемы физики" width="150px;"/></a>
+					<p>VIII МЕЖДУНАРОДНАЯ ШКОЛА-КОНФЕРЕНЦИЯ МОЛОДЫХ УЧЕНЫХ И СПЕЦИАЛИСТОВ
+					<br />&laquo;СОВРЕМЕННЫЕ ПРОБЛЕМЫ ФИЗИКИ - 2018&raquo;
+					<br /><span>13-15 июня 2018, г. Минск</span>
+					</p>
+				</h1>
+				<ul id="social">
+					<li><a href="https://www.facebook.com/groups/725032014209521/" target="_blank" title="Наша группа в Facebook"><img src="images/fblogo.png" alt="Наша группа в Facebook" title="Наша группа в Facebook" width="25px"></a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="content">
+			<nav>
+				<ul>
+					<li><a href="index.html">ГЛАВНАЯ</a></li>
+					<br />
+					<li><a href="registration.html" id="active">РЕГИСТРАЦИЯ</a></li>
+					<li><a href="program.html">ПРОГРАММА КОНФЕРЕНЦИИ</a></li>
+					<li><a href="rules.html">ПРАВИЛА ОФОРМЛЕНИЯ РАБОТ</a></li>
+					<li><a href="fee.html">ОРГАНИЗАЦИОННЫЙ ВЗНОС</a></li>
+					<li><a href="#" hidden>МАТЕРИАЛЫ КОНФЕРЕНЦИИ</a></li>
+					<br />
+					<li><a href="orgcom.html">ОРГАНИЗАТОРЫ</a></li>
+					<br />
+					<li><a href="archive.html">АРХИВ КОНФЕРЕНЦИИ</a></li>
+					<br />
+					<li><a href="contacts.html">КОНТАКТЫ</a></li>
+				<ul>
+			</nav>
+			<div class="info">
+				<h2>РЕГИСТРАЦИЯ НА УЧАСТИЕ В КОНФЕРЕНЦИИ</h2>
+				<p><strong>I. Заполните приведенную ниже форму (<img src="images/red_asterisk.png"/> - поля, обязательные для заполнения)</strong></p>
+				<br />
+				<form class="regform" name="regform" enctype="multipart/form-data" method="post" action="http://80.94.164.195/mpp/checkin.php">
+				<ul>
+					<li>
+						<label for="lastname">Фамилия:</label>
+						<input class="line" type="text" maxlength="25" name="lastname" placeholder="Иванов" pattern="[А-Яа-яЁёA-Za-z\-]+" title="Введите фамилию" required>
+					</li>
+					<li>
+						<label for="firstname">Имя:</label>
+						<input class="line" type="text" maxlength="25" name="firstname" placeholder="Иван" pattern="[А-Яа-яЁёA-Za-z]+" title="Введите имя" required>
+					</li>
+					<li>
+						<label for="middlename">Отчество:</label>
+						<input class="line" type="text" maxlength="25" name="middlename" placeholder="Иванович" pattern="[А-Яа-яЁёA-Za-z]+" title="Введите отчество">
+						<input type="text" class="honey" name="honey_x"></input>
+					</li>
+					<li>
+						<label for="dateofbirth">Дата рождения:</label>
+						<input class="line" type="date" maxlength="10" name="dateofbirth" placeholder="20.03.1991" title="Введите дату рождения" required>
+					</li>
+					<li>
+						<label for="job">Место работы/учебы:</label>
+						<input class="line" type="text" maxlength="70" name="job" placeholder="Институт физики НАН Беларуси" title="Введите название организации" pattern='[А-Яа-яЁёA-Za-z\s\-\:\"]+' required>
+					</li>
+					<li>
+						<label for="email">Ваш e-mail:</label>
+						<input class="line" type="email" maxlength="40" name="email" placeholder="ivanov@bsu.by" title="Введите e-mail" required>
+						<input type="text" class="honey" name="honey_y"></input>
+					</li>
+					<li>
+						<label for="hostel">Бронирование гостиницы:</label>
+						<input type="checkbox" id="checkbox" name="hostel" value="1" title="Поставьте галочку, если необходима бронь гостиницы">
+					</li>
+					<li>
+						<label for="section">Предпочтительная секция:<br /><span>* организаторы конференции оставляют за собой право изменять секцию по своему усмотрению</span></label>
+						<select size="1" id="section" name="section" title="Выберите предпочтительную секцию">
+							<option value="0">Выберите секцию</option>
+							<option value="Физическая и нелинейная оптика">Физическая и нелинейная оптика</option>
+							<option value="Лазерная физика и спектроскопия">Лазерная физика и спектроскопия</option>
+							<option value="Теоретическая физика и физика фундаментальных взаимодействий">Теоретическая физика и физика фундаментальных взаимодействий</option>
+							<option value="Оптические приборы, материалы и технологии">Оптические приборы, материалы и технологии</option>
+							<option value="Биомедицинская физика">Биомедицинская физика</option>
+							<option value="Физика наноструктур">Физика наноструктур</option>
+							<option value="Физика полимеров и органических соединений">Физика полимеров и органических соединений</option>
+							<option value="Физика плазмы">Физика плазмы</option>
+						</select>
+					</li>
+					<li>
+						<label for="report">Форма представления доклада:<br /><span>* организаторы конференции оставляют за собой право изменять форму представления по своему усмотрению</span></label>
+						<select size="1" id="report" name="report" title="Выберите предпочтительную форму представления доклада">
+							<option value="0">Выберите форму представления доклада</option>
+							<option value="Устный">Устный</option>
+							<option value="Стендовый">Стендовый</option>
+						</select>
+					</li>
+					<li>
+						<label for="worktitle">Название работы:</label>
+						<textarea rows="5" cols="5" name="worktitle" onclick="testData(s);" title="Введите название работы" pattern='[А-Яа-яЁёA-Za-z\s\.\,\:\-\+()0-9]+' required></textarea>
+					</li>
+					<li>
+						<label for="coauthors">Соавторы:</label>
+						<input class="line" type="text" size="20" name="coauthors" title="Введите ФИО соавторов" placeholder="Петров П.П., Сидоров С.С." pattern='[А-Яа-яЁёA-Za-z\,\.\s\"]+' required>
+					</li>
+					<li>
+						<label for="summary">Аннотация (до 1000 символов, включая пробелы):</label>
+						<textarea cols="42" rows="10" maxlength="1000" name="summary" title="Введите аннотацию (до 1000 символов)" pattern='[А-Яа-яЁёA-Za-z\s\.\,\:\;\!\?\-\+()0-9\"]+' required></textarea>
+						<input type="text" class="honey" name="honey_z"></input>
+					</li>
+					<li>
+						<label for="submit"> </label>
+						<button class="submit" name="submit">Зарегистрироваться</button>
+					</li>
+				</form>
+				<br />
+				<p><strong>II. Вышлите текст вашего доклада в форматах <span style="color:#A13232;">.doc</span> и <span style="color:#A13232;">.pdf</span> по адресу <a href="mailto:mpp2018@ifanbel.bas-net.by" style="color:#A13232;">mpp2016@ifanbel.bas-net.by</a> с указанием фамилии, имени и отчества докладчика. Образцы оформления можно скачать <a href="rules.html" style="color:#A13232;">здесь</a></strong></p>
+			</div>
+			
+		</div>
+		<div class="footer">
+			<p>&copy; 2004-2018 &laquo;СОВРЕМЕННЫЕ ПРОБЛЕМЫ ФИЗИКИ&raquo;
+			<br />Все права принадлежат <a href="http://ifan.basnet.by" title="Сайт Институт физики НАН Беларуси">ГНУ &laquo;Институт физики имени Б.И.Степанова Национальной академии наук Беларуси&raquo;</a>
+			</p>
+		</div>
+	</div>
+</body>
+</html>
